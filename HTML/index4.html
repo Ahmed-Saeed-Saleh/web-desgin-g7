@@ -1,0 +1,96 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <!-- meta tags -->
+        <!-- Language -->
+        <meta charset="UTF-8">
+        <!-- responsive -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- SEO meta tags -->
+        <meta name="keywords" content="html , css , javascript">
+        <meta name="description" content="html tutorial">
+        <meta name="author" content="ABC Company">
+        <title>html second session</title>
+        
+    </head>
+    <body id="body">
+        <h2>عنوان رئيسى</h2>
+        <h1 id="myText">hello</h1>
+        <form id="myForm" autocomplete="off" method="POST" action="test.html" >
+            <!-- label ==> inline Element -->
+            <!-- input ==> inline Elements -->
+            <!-- input attributes ==> type,name, value , placeholder , autocomplete , maxlength , minlength -->
+            <!-- type attribute ==> text , email , password ,   -->
+            <!-- textarea ==> cols , rows , placeholder , name -->
+            <!-- radio , checkbox type ==> checked -->
+            <label for="fName">first Name</label>
+            <input type="text" id="fName" name="firstName" autocomplete="off"  minlength="3" maxlength="10" required > <br>
+            <label>last Name</label>
+            <input type="text" name="lastName" value="last name" disabled> <br>
+            <label>Email Address</label>
+            <input type="email" name="email"> <br>
+            <input type="text" placeholder="Enter family name"  name="familyName" value="family name" readonly> <br>
+            <input type="password" placeholder="enter Your Password" name="password"> <br>
+            <!-- <input type="text" placeholder="enter your Address"> -->
+            <textarea required placeholder="enter your address" name="address" cols="20" rows="5" ></textarea> <br>
+            <label>Gender</label> <br>
+            <input type="radio" name="gender" value="0" checked>Male <br>
+            <input type="radio" name="gender" value="1">Female <br>
+            <label>Hobbies</label> <br>
+            <input type="checkbox" name="reading" checked><span>reading</span> <br>
+            <input type="checkbox" name="sleeping"><span>sleeping</span> <br>
+            <input type="checkbox" name="football">football <br>
+
+            <label>Age</label> <br>
+            <input type="number" name="age"> <br>
+            <label>Phone</label> <br>
+            <!-- <input type="tel" name="phone" pattern="[0-9]{8}"> -->
+            <!-- 010-234-5678 -->
+            <input type="tel" name="phone" pattern="[+]{1}[0-9]{3}-[0-9]{3}-[0-9]{4}"> <br>
+            
+            <!-- file type ==> muliple ,required ,name , disabled -->
+            <label>Upload Your Cv</label>
+            <input type="file" name="cv" multiple  > <br>
+
+            <label>Choose Your Track</label>
+            <!-- select attribute ==> name , multiple , disabled , required -->
+            <select name="track"  >
+                <option disabled selected>select your track</option>
+                <option> web desgin </option>
+                <option> web develop </option>
+                <option> graphic </option>
+                <option> gb </option>
+                <option> ga </option>
+                <option> gc </option>
+                <option> gca </option>
+                <option> gcb </option>
+            </select> <br>
+
+            <label>choose Your track</label> <br>
+            <input list="myTrack" name="myTrack">
+            <datalist id="myTrack">
+                <option> web desgin </option>
+                <option> web develop </option>
+                <option> graphic </option>
+                <option> gb </option>
+                <option> ga </option>
+                <option> gc </option>
+                <option> gca </option>
+                <option> gcb </option>
+            </datalist>  <br>
+
+            <label>Date Of Birth</label> <br>
+            <input type="date" name="birthDate" > <br> 
+            <input type="datetime-local" name="dateTime"> <br>
+            <input type="month" name="month"> <br>
+            <input type="color" name="color">
+            <br>
+            <input type="submit" value="sign in">
+            <input type="reset" value="Clear">
+            <button>Sign Up </button> 
+
+        </form>
+
+        <button>Sign Up </button>
+    </body>
+</html>
