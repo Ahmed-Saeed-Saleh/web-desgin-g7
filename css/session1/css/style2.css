@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+}
+
+.left-div{
+    background-color: lightgray;
+    color: red;
+   
+}
+.right-div{
+    background-color: lightskyblue;
+    color: brown; 
+}
+/* display ==> block , inline-block , inline */
+.general-style{
+    font-size: 30px;
+    /* display: block; ==> (default) */
+    width: 44%;
+    display: inline-block;
+}
+.mySpan{
+    font-size: 30px;
+    background-color: yellow;
+    width: 62%;
+    height: 200px;
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+}
+
+.left-float-div{
+    background-color: burlywood;
+    float: left;
+    width: 40%;
+}
+.right-float-div{
+    background-color: cornflowerblue;
+}
+.general-float-style{
+    font-size: 30px;
+}
+
+.clear{
+    clear: both;
+}

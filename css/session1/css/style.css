@@ -1,0 +1,81 @@
+
+h1{
+    color: blue;
+}
+#myH1{
+    color: chartreuse;
+}
+#mySection{
+    background-color:#f0ecec;
+    /* padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px; */
+    /*padding ==> padding-top , padding-right , padding-bottom , padding-left  */
+    /* padding: 20px 20px 20px 20px; */
+    /* padding: 20px; */
+    /* padding: 20px 30px; */
+    padding: 20px 30px 10px ;
+    /* margin ==> margin-top , margin-right , margin-bottom , margin-left */
+    /* margin: 20px 30px ; */
+    width: 50%;
+    margin: 0px auto;
+    /* border-left-color: red ;
+    border-left-width: 3px;
+    border-left-style: solid; */
+    /* border-left: 5px solid red;
+    border-right: 5px solid blue;
+    border-bottom: 5px solid green;
+    border-top: 5px solid yellow; */
+    /* border */
+    border: 5px solid red;
+
+
+}
+#mySection p{
+    font-size: 35px;
+    /* text-align ==> center , right , left(default) */
+    /* text-align: left; */
+    /* text-align: center; */
+    color: red;
+}
+section p {
+    font-size: 30px;
+}
+section div p {
+    font-size: 20px;
+}
+
+input {
+    background-color: lightgrey;
+    color: red;
+    font-size: 21px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 3px solid red;
+    margin-left: 18px;
+    /* border-top-right-radius: 10px ;
+    border-bottom-right-radius: 10px ; */
+    border-radius:20px 30px 5px 10px;
+}
+.custom-div img{
+    
+}
+.custom-div #myImg{
+
+}
+.custom-div{
+    height: 400px;
+}
+#myImg{
+    width: 50%;
+    height: 437px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 4px solid red;
+    border-radius: 50%;
+}
+.myCustomDiv{
+    color: green !important ;
+}
+

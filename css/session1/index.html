@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css 1st session</title>
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Css Methods ==> internal sheet , External Sheet , inline Style -->
+    <!-- periority ==> inline style , id , class , tag  -->
+    <!-- internal sheet style -->
+    <style>
+        /* selector{
+            prorperty element : property value
+        }
+         */
+        p {
+            color: goldenrod;
+        }
+
+        .myText {
+            color: red;
+        }
+
+        #text {
+            color: greenyellow;
+        }
+
+        .mySpan {
+            color: hotpink;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <p class="myText" id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, voluptates?</p>
+    <div>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+
+    <span class="myText">
+        Lorem, ipsum dolor.
+    </span>
+    <p>HTML : hyper text <span class="mySpan">markup</span> language</p>
+    <h1 id="myH1">html</h1>
+
+    <section id="mySection">
+        <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, illum.</h2>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing </p>
+        </div>
+    </section>
+
+
+    <form>
+        <input type="text" >
+    </form>
+
+
+    <div class="custom-div">
+        <img id="myImg" src="../../HTML/images/960x0.jpg">
+    </div>
+
+    <div class="myCustomDiv" style="color:red ; background-color: khaki; font-size: 30px; margin-top: 90px; " >
+        <h3 >Lorem ipsum dolor sit amet.</h3>
+    </div>
+
+
+</body>
+
+</html>
