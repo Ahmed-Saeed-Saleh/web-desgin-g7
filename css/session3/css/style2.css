@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin: 5% auto;
+}
+/* pseduo Element */
+/* ::first-letter , ::first-line , ::placeholder , ::marker ,::selection , ::before , ::after */
+h1::first-line{
+    color: mediumaquamarine;
+}
+h1::first-letter{
+    color: red;
+}
+h1::selection{
+    background-color: peru;
+    color: white;
+}
+li::marker{
+    color: red;
+}
+::selection{
+    background-color: peru;
+    color: white;
+}
+::first-letter{
+    color: red;
+}
+::marker{
+    color: red;
+}
+/* input::placeholder{
+    color:royalblue;
+} */
+::placeholder{
+    color: sandybrown;
+}
+
+h2{
+    background-color: #f5f5f5;
+    padding: 2%;
+    margin-top: 2%;
+}
+
+/**************** Before Style ***************************** */
+/* before ==> inline Element */
+h2::before{
+    content: "hello Html css bootstrap";
+    font-size: 40px;
+    color: red;
+    background-color: yellow;
+    display: inline-block;
+    border: 2px solid;
+    border-radius: 5px;
+}
+.myDiv{
+    padding: 2%;
+    background-color: slateblue;
+}
+.myDiv::before{
+    content: "lorem ";
+    color: white;
+    font-size: 35px;
+}
+h3{
+    color: white;
+}
+h3::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    display: inline-block;
+}
+h4::before{
+    content: "\f007";
+    color: White;
+    font-family:"Font Awesome 5 Free" ;
+    font-size: 30px;
+}
+
+#myText {
+    margin-top: 2%;
+}
+
+#myText::after{
+    content: "";
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    /* border-bottom: 10px solid blue; */
+    border-top: 10px solid yellow;
+    display: inline-block;
+}
+

@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.btn{
+    background-color: #d3d3d3;
+    color: red;
+    font-size: 30px;
+    padding: 1%;
+    border: 0px;
+    margin-top: 2%;
+    font-weight: bold; 
+}
+/* Pseudo Class */
+/* :hover , :focus , :disabled , nth-child , first-child , last-child  */
+.btn:hover{
+    border: 2px solid;
+    background-color: transparent;
+}
+.btn:focus{
+    background-color: black;
+    color: white;
+}
+.myInput{
+    background-color: rgb(235, 231, 235);
+    padding: 1%;
+    border: 0;
+    border-bottom: 2px solid ;
+}
+.myInput:focus{
+    background-color: rgb(215, 241, 163);
+    /* border: 2px solid tomato; */
+
+    outline: 0;
+    border-color: orange;
+}
+.myDiv{
+    height: 100px;
+    width: 100px;
+    background-color: turquoise;
+}
+.myDiv:focus{
+    background-color: black;
+}
+.myDiv:hover{
+    background-color: red;
+}
+.myDisabledInput:disabled{
+    background-color: cornflowerblue;
+}
+
+/********** pseudo Class of a  ************/
+/* unvisited Link */
+a:link{
+    color: red;
+}
+/* visited Link */
+a:visited{
+    color: darkgoldenrod;
+}
+/* hover */
+a:hover{
+    color: blue;
+}
+/* selected Link */
+a:active{
+    color: green;
+}
+/*********************************************/
+
+#first-ul li:first-child{
+    color: red;
+}
+#second-ul li:first-child{
+    color: chartreuse;
+}
+#first-ul li:last-child{
+    color: darkgoldenrod;
+    background-color:lightgray ;
+}
+#second-ul li:last-child{
+    color: mediumblue;
+}
+/* nth-child ==> number , even , odd */
+#third-ul li:nth-child(3){
+    color: pink;
+}
+
+#fourth-ul li:nth-child(odd){
+    color: red;
+}
+
+/**********************table style**********************/
+/* table{
+    border: 2px solid royalblue;
+}
+th{
+    border:2px solid royalblue;
+}
+td{
+    border:2px solid royalblue;
+} */
+  td , th{
+    border-bottom:2px solid lightgray;
+}
+td , th{
+    padding: 1% ;
+}
+table{
+    /* border-collapse==> seperate(default) , collapse */
+    border-collapse: collapse;
+    margin: 3% 0;
+    width: 100%;
+    font-size: 24px;
+    text-align: center;
+}
+tr:hover{
+    background-color: #f5f5ff;
+}
+#table-head{
+    background-color: rgb(120, 201, 197);
+}
+#table-head:hover{
+    background-color: #f5f5f5;
+}
+tr:nth-child(even){
+    background-color: rgb(209, 229, 241);
+}
+tr:nth-child(even):hover{
+    background-color: #f5f5f5;
+}
+tr:nth-child(odd){
+    background-color: linen;
+}
+tr:nth-child(odd):hover{
+    background-color: mediumaquamarine;
+}
+
+/* th:hover{
+    background-color: #f5f5f5;
+} */
+
+/* .exapmle .text{
+    color: red;
+}
+#blog .paragraph{
+    color: red;
+}
+.exapmle .text , #blog .paragraph{
+    color: red;
+} */
+/******************************************************/
