@@ -1,0 +1,2 @@
+position ==> fixed , sticky ,( absolute , relative ) , static (default)
+positions property ==> top , left , right , bottom , z-index
