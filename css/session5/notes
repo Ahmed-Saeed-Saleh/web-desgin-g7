@@ -1,0 +1,12 @@
+overflow ==> hidden
+text-overflow ==> ellipisis (white-space:nowrap , overflow:hidden)
+favicon ==> 16x16 , 24x24
+box-sizing ==> border-box , content-box(default)
+google fonts ==> https://fonts.google.com/
+letter-spacing
+line-height 
+text-transform ==> capitlaize , uppercase ,  lowercase
+display==> flex
+flex properties (parent) ==>  justify-content , align-items , flex-direction , flex-wrap
+                              flex-flow , align-content
+flex properties (child) ==> order

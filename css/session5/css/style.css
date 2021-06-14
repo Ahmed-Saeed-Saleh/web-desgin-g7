@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* font-family: 'Staatliches', cursive; */
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.overflow{
+    background-color: bisque;
+    /* height: 100px; */
+    padding: 1%;
+    height: 200px;
+}
+.overflow p {
+    width: 20%;
+    white-space: nowrap;
+    background: azure;
+    font-size: 22px;
+    padding: 2%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.overflow:hover{
+    height: auto;
+}
+.overflow p:hover{
+    width: auto;
+    white-space: normal;
+}
+
+.box-sizing{
+    width: 30%;
+    /* height: 200px; */
+    background: lightblue;
+    margin: 3% auto;
+    padding: 3%;
+    border: 10px solid;
+    display: inline-block;
+    font-size: 30px;
+    box-sizing: border-box;
+}
+.box-sizing p {
+    /* font-family: 'Dancing Script', cursive; */
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 2;
+    text-transform: capitalize;
+}
