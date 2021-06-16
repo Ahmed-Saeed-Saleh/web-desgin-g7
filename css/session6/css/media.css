@@ -1,0 +1,67 @@
+/* max-width */
+/* 0 ==> 560 */
+@media screen and (max-width:560px){
+    .custom-div{
+        width: 40%;
+        background: darkgray;
+    }
+}
+
+/* (0 ==> 480) */
+@media screen and (max-width:480px) {
+    .custom-div {
+        width: 80%;
+        background: coral;
+    }
+}
+
+/* (0 ==> 360) */
+@media screen and (max-width:360px){
+    .custom-div{
+       width: 100%; 
+       background: darkgoldenrod;
+    }
+}
+/************************************************************  */
+/* min-width */
+/* 1000 ==> ........... */
+@media screen and (min-width:1000px){
+    .custom-div{
+        color: red;
+        font-size: 25px;
+    }
+}
+/************************************************************  */
+
+
+/* Condition ===> by Range */
+
+@media (min-width: 380px) and (max-width:440px)  {
+    .custom-div{
+        color: white;
+        font-size: 30px;
+    }
+    .hidden-div{
+        display: none;
+    }
+}
+@media (min-width:500px) and (max-width:550px) {
+    .custom-div{
+        color: red;
+        border: 2px solid;
+    }
+}
+@media (min-width:441px) and (max-width:490px) {
+    .custom-div{
+        font-size: 30px;
+        color: darkmagenta;
+    }
+}
+
+/* media print */
+
+@media print{
+    .hidden-div{
+        display: none;
+    }
+}

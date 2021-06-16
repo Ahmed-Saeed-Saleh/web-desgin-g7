@@ -1,0 +1,7 @@
+body{
+    direction: rtl;
+}
+a {
+    margin-right: 0;
+    margin-left: 2%; 
+}

@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+.container{
+    width: 70%;
+    margin: auto;
+   
+}
+.flex-item-right{
+    width: 30%;
+    background-color:#eeee;
+}
+.flex-item-left{
+    width: 65%;
+    background-color: bisque;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.d-flex{
+    display: flex;
+}
+.d-flex-justify-content-between{
+    display: flex;
+    justify-content: space-between;
+}
+.justify-content-around{
+    justify-content: space-around;
+}
+ul{
+    width: 60%;
+}
+.flex-card{
+    width: 48%;
+}
+.flex-card .custom-img{
+    width: 100%;
+}
+.flex-card .custom-img2{
+    width: 30%;
+    height: 80px;
+}
+.custom-style {
+    border-bottom: 2px solid gray;
+    margin-bottom: 2%;
+}

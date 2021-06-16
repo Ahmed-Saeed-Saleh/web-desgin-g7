@@ -1,0 +1,14 @@
+.container{
+    width: 90%;
+    margin: auto;
+}
+h1 {
+    padding: 3%;
+    background-color: antiquewhite;
+}
+a {
+    font-size: 25px;
+    margin-right: 2%;
+    border:2px solid red;
+    padding: 1%;
+}

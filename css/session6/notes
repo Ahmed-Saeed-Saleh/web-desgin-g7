@@ -1,0 +1,27 @@
+html dir attribute ==> auto , rtl , ltr(default)
+css ==> direction
+background-image ==> linear-gradient , radial-gradient
+em ==> 16px 
+rem ==> responsive em = 16px 
+responsive rules ==> width = % , margins = % , padding = %
+                 ==> font-size = rem
+                 ==> media 
+                 ==> meta tag (resposive)
+
+opacity==> 0 : 1
+
+///////////////// Transition Property Css
+transition-duration ==> s (second)
+transition-delay ==> s
+transition-property ==> css property , all(default)
+transition-timing-function==> ease (default) , linear , ease-in , ease-out 
+                            ease-in-out 
+- ease ==> start slow , fast , end slow (default)
+- linear ==> same speed (start / end)
+- ease-in ==> start slow 
+- ease-out ==> end slow
+- ease-in-out ==> start end slow
+- cubic-bezier (search)
+==> transition = transition-duration(mandatory) + transition-property (optional) + transition-timing-function (optional)
+///////////////////////////////////////////////////
+Wow Library ==> https://wowjs.uk/docs.html
