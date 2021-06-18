@@ -1,0 +1,16 @@
+Transform 2d css Property
+-translate(x-axis , y-axis) , translatX() , translateY()
+-scale(width , height) , scaleX(width) , scaleY(height)
+-rotate(deg)
+-skewX(x-axis) , skewY(y-axis) , skew(x-axis , y-axis)
+-matrix(scaleX() , skewY() , skewX() , scaleY() , translateX() , translayY())
+
+Transform 3d css Property
+- prespective ==> (body , transform Tag)
+
+Animation css Property
+-@keyframes
+-animation ==> animation-name , animation-duration , animation-iteration-count , animation-direction 
+-animation-delay
+
+-Hover.css Library ==> https://ianlunn.github.io/Hover/
